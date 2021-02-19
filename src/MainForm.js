@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Specs from './Specs';
-
+import FEATURES from './Features'
 
 class MainForm extends Component {
     render() {
@@ -8,7 +8,7 @@ class MainForm extends Component {
                 <form className="main__form">
                 <h2>Customize your laptop</h2>
                 <Specs 
-                    features={this.props.features}
+                    features={FEATURES}
                     selected={this.props.selected}
                     updateFeature={this.props.updateFeature}
                 />
