@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Specs from './Specs';
-import FEATURES from './Features'
+import Specs from '../Specs/Specs';
+import FEATURES from '../Features/Features'
 
 class MainForm extends Component {
     render() {

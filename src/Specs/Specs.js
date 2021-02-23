@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import slugify from "slugify";
-import Parts from "./Parts";
+import Parts from "../Parts/Parts";
 
 
 class Specs extends Component {

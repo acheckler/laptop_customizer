@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Total from './Total';
-import Option from './Option';
+import Total from '../Total/Total';
+import Option from '../Option/Option';
   
 
 class Cart extends Component {
